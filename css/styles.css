@@ -1,0 +1,13 @@
+##
+## My CSS stylesheet for news and announcements.
+##
+
+.8482container {
+	background-color: lightgreen;
+}
+
+.8482picstyle {
+	width: 30%;
+	height: auto;
+	border-radius: 3px solid blue;
+}
