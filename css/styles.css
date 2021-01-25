@@ -3,7 +3,7 @@
 ##
 
 .8482container {
-	background-color: lightgreen;
+	background-color: cyan;
 	color: darkblue;
 }
 
@@ -12,3 +12,20 @@
 	height: auto;
 	border-radius: 3px solid blue;
 }
+
+.8482btn {
+	visibility: show; 
+	min-height: 60px; 
+	display: flex; 
+	justify-content: center;
+	align-items: center; 
+	background: radial-gradient(ellipse at center, #f85032 0%,#f16f5c 42%, #f6290c 62%, #f02f17 79%, #e73827 100%);
+	margin: 0.5rem; 
+	border-radius: 0.75rem;
+	padding: 0.5rem 1.5rem;
+}
+
+.8482_sales {
+	
+}
+## END ##
