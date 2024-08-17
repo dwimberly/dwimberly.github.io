@@ -1,0 +1,249 @@
+/*
+ * Stylesheet: announce.css
+ * created: 8/17/2024 dsw
+ *
+ * Description: for use in Knights of Columbus 8284 special styling. Load in the uknight.org homepage <head> tag. These css definitions will not conflict with 
+ *              UKnight's namespace for stylesheet definitions - MUST USE ONLY classnames, NO TAG definitions!  Append -8482 suffix
+ *
+ *  Modified   by   Description
+ * ----------  ---  --------------------------------------------------------
+ * 08/29/2022  dsw  recreated from old style.css file.  More care taken on classname values (prefix with our council number) and reference files with HTTPS 
+ *                  so we don't get blocked due to insecure protocol.
+ */
+
+/* *************************************
+   Containers                          */
+.containerAnnounce8482 {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem 0.5rem;
+  margin: 0.5rem auto;
+  padding: 0.5rem 0.25rem;
+  font-size: 1.5rem;
+  font-family: "Z003", serif;
+  border-image: url("https://drive.google.com/uc?export=view&id=12GKRPSD8L1ZcjCKKrGaR5ivCsI5IwfVN") 27 round stretch;
+  border-width: 25px;
+  border-style: solid;
+  background-image: url("https://drive.google.com/uc?export=view&id=120Z6kxtuR53wBvJgRBpHPclwNqtEnB9c");
+  background-repeat: repeat;
+}
+
+.containerCardTamalesDonate8482 {
+  background: radial-gradient(ellipse at top right, #F43C38, transparent),
+    radial-gradient(ellipse at bottom left, #F43C38, transparent),
+    radial-gradient(ellipse at bottom, #112866, transparent);
+  line-height: 2.5rem;
+}
+
+/* **********************************
+   Base format for all cards.       */
+.cardFmt8482 {
+  position: relative;
+  padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+  border-radius: 10px;
+  font-family: 'Z003', cursive;
+  font-size: 25px;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+
+}
+
+.cardFmtREDPurchase8485 {
+  background-color: #F33C38;
+  border-bottom: 5px solid #990033;
+  text-shadow: 0px -2px #990033;
+  background: radial-gradient(ellipse at top right,
+      #F33C38 0%,
+      #F33C38 40%,
+      #990033 100%);
+}
+
+.cardFmtGeneric8482 {
+  background-color: #39842E;
+  border-bottom: 5px solid #136207;
+  text-shadow: 0px -2px #136207;
+  background: radial-gradient(ellipse at bottom left,
+      #39842E 0%,
+      #39842E 40%,
+      #1e69de 100%);
+}
+
+.cardFmtAnnualRaffle8482 {
+  background-color: #112866;
+  border-bottom: 5px solid #BD3E31;
+  text-shadow: 0px -2px #BD3E31;
+}
+
+/*  Specific card formats for announcements/news/events */
+.cardFmtForm1008482 {
+  background-color: #112866;
+  border-bottom: 5px solid #0D1D4A;
+  text-shadow: 0px -2px #0D1D4A;
+  background: radial-gradient(ellipse at bottom left,
+      #112866 0%,
+      #112866 40%,
+      #1e69de 100%);
+}
+
+.cardFmtFirstFriday8482 {
+  background-color: #112866;
+  border-bottom: 5px solid #BD3E31;
+  text-shadow: 0px -2px #BD3E31;
+}
+
+.cardFmtFishFry8482 {
+  background-color: #112866;
+  border-bottom: 5px solid #BD3E31;
+  text-shadow: 0px -2px #BD3E31;
+}
+
+.cardFmtFoodHandler8482 {
+  background-color: #41599B;
+  border-bottom: 5px solid #0D1D4A;
+  text-shadow: 0px -2px #0D1D4A;
+  background: radial-gradient(ellipse at center,
+      #41599B 0%,
+      #4F6298 40%,
+      #1e69de 100%);
+}
+
+.cardFmtKnightsurvey8482 {
+  background: radial-gradient(ellipse at center,
+      #ffe0c1 0%,
+      #ffe0c1 10%,
+      #ffb76b 20%,
+      #ffb76b 40%,
+      #ff8b1e 70%,
+      #ff7f04 100%);
+}
+
+.cardFmtMardiGras8482 {
+  background: radial-gradient(ellipse at center,
+      #9c9be8 0%,
+      #5b5be5 27%,
+      #0a06e8 50%,
+      #3530c1 100%);
+}
+
+.cardFmtPayDues8482 {
+  background-color: #112866;
+  border-bottom: 5px solid #0D1D4A;
+  text-shadow: 0px -2px #0D1D4A;
+  background: radial-gradient(ellipse at bottom left,
+      #112866 0%,
+      #112866 40%,
+      #1e69de 100%);
+}
+
+.cardFmtPOPNews8482 {
+  background-color: #112866;
+  border-bottom: 5px solid #0D1D4A;
+  text-shadow: 0px -2px #0D1D4A;
+  background: radial-gradient(ellipse at bottom left,
+      #112866 0%,
+      #112866 40%,
+      #1e69de 100%);
+}
+
+.cardFmtSignUpLife8482 {
+  background: radial-gradient(ellipse at center,
+      #b4e391 0%,
+      #61c419 50%,
+      #abe281 72%,
+      #62e200 100%);
+}
+
+.cardFmtTamalesDonate8482 {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 350px;
+}
+
+.cardFmtTamaleSales8482 {
+  background-color: #112866;
+  border-bottom: 5px solid #BD3E31;
+  text-shadow: 0px -2px #BD3E31;
+}
+
+.cardFmtTexasKnights8482,
+.cardFmtTexasKnightsNews8482,
+.cardFmtKnightlineMagazine8482 {
+  background-color: #1E42A6;
+  border-bottom: 5px solid #112866;
+  text-shadow: 0px -2px #112866;
+}
+
+/* *******************************************
+   content text formatting                   */
+.textLight8482 {
+  margin-right: 0.5em;
+  font-size: 1.3em;
+  color: #28282B;
+  text-shadow: 1px 3px 4px rgb(52, 56, 59);
+}
+
+/* Should ALWAYS override any other class properties specified in
+   the above classes in your HTML */
+.inActive8482 {
+  display: none;
+  visibility: hidden;
+}
+
+.linkTextWhite8482:visited,
+.linkTextWhite8482 {
+  color: whitesmoke;
+  text-shadow: 1px 3px 4px black;
+}
+
+.linkTextWhite8482:hover,
+.linkTextWhite8482:focus {
+  color: gold;
+}
+
+.linkTextYellow8482:visited,
+.linkTextYellow8482 {
+  color: #ffde00;
+  text-shadow: 1px 3px 4px black;
+}
+
+.linkTextYellow8482:hover,
+.linkTextYellow8482:focus {
+  color: #CCCCCC;
+}
+
+.linkTextMardiGras8482:visited,
+.linkTextMardiGras8482 {
+  color: #13e96d !important;
+  text-shadow: 2px 2px 3px black;
+}
+
+.linkTextMardiGras8482:hover,
+.linkTextMardiGras8482:focus {
+  color: #e9de4a !important;
+  text-shadow: 2px 2px 3px black;
+}
+
+/* Animations pertaining to buttons within container */
+.linkAnimate8482 {
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+
+.linkAction-Button8482:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  border-bottom: 1px solid;
+}
+
+/* ***** END ***** */
