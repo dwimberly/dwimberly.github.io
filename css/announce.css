@@ -1,4 +1,4 @@
-/*
+/* ************************
  * Stylesheet: announce.css
  * created: 8/17/2024 dsw
  *
@@ -7,12 +7,16 @@
  *
  *  Modified   by   Description
  * ----------  ---  --------------------------------------------------------
- * 08/29/2022  dsw  recreated from old style.css file on GDrive.  More care taken on classname values (suffix with dash - council number 8482) and reference files with HTTPS 
+ * 08/17/2024  dsw  recreated from old style.css file on GDrive.  More care taken on classname values (suffix with dash - council number 8482) and reference files with HTTPS 
  *                  so we don't get blocked due to insecure protocol.
- */
+ *                  AND wipe all unnecessary buttons.
+ *                  Restructure sections for doing containers and card/button formats
+ *                  -- use PRIMARY always and then add an optional SECONDARY format style
+   ************************ 
+*/
 
 /* *************************************
-   Containers                          */
+   MAIN announcement Container */
 .containerAnnounce-8482 {
   width: 95%;
   display: flex;
@@ -31,6 +35,8 @@
   background-repeat: repeat;
 }
 
+/*
+   SUB-Container for Tamale donations */
 .containerCardTamalesDonate-8482 {
   background: radial-gradient(ellipse at top right, #F43C38, transparent),
     radial-gradient(ellipse at bottom left, #F43C38, transparent),
@@ -39,7 +45,8 @@
 }
 
 /* **********************************
-   Base format for all cards.       */
+   PRIMARY base format for ALL cards. 
+   Use in combination with a specific format below. Put this one FIRST */
 .cardFmt-8482 {
   position: relative;
   padding: 10px 40px;
@@ -54,6 +61,10 @@
 
 }
 
+/* **********************************
+   CHOOSE A SPECIFIC FORMAT FOR YOUR CARD/BUTTON */
+
+/* FORMAT:  Highlight in RED for selling stuff */
 .cardFmtREDPurchase-8482 {
   background-color: #F33C38;
   border-bottom: 5px solid #990033;
@@ -64,6 +75,7 @@
       #990033 100%);
 }
 
+/* FORMAT:  GENERIC button card formatting for any new buttons */
 .cardFmtGeneric-8482 {
   background-color: #39842E;
   border-bottom: 5px solid #136207;
@@ -74,13 +86,7 @@
       #1e69de 100%);
 }
 
-.cardFmtAnnualRaffle-8482 {
-  background-color: #112866;
-  border-bottom: 5px solid #BD3E31;
-  text-shadow: 0px -2px #BD3E31;
-}
-
-/*  Specific card formats for announcements/news/events */
+/* FORMAT:  KofC.org Form 100 button */
 .cardFmtForm100-8482 {
   background-color: #112866;
   border-bottom: 5px solid #0D1D4A;
@@ -91,18 +97,21 @@
       #1e69de 100%);
 }
 
+/* FORMAT:  First Friday Meals. */
 .cardFmtFirstFriday-8482 {
   background-color: #112866;
   border-bottom: 5px solid #BD3E31;
   text-shadow: 0px -2px #BD3E31;
 }
 
+/* FORMAT:  Lenten Fish Fry. */
 .cardFmtFishFry-8482 {
   background-color: #112866;
   border-bottom: 5px solid #BD3E31;
   text-shadow: 0px -2px #BD3E31;
 }
 
+/* FORMAT:  Food Handler. */
 .cardFmtFoodHandler-8482 {
   background-color: #41599B;
   border-bottom: 5px solid #0D1D4A;
@@ -113,24 +122,7 @@
       #1e69de 100%);
 }
 
-.cardFmtKnightsurvey-8482 {
-  background: radial-gradient(ellipse at center,
-      #ffe0c1 0%,
-      #ffe0c1 10%,
-      #ffb76b 20%,
-      #ffb76b 40%,
-      #ff8b1e 70%,
-      #ff7f04 100%);
-}
-
-.cardFmtMardiGras-8482 {
-  background: radial-gradient(ellipse at center,
-      #9c9be8 0%,
-      #5b5be5 27%,
-      #0a06e8 50%,
-      #3530c1 100%);
-}
-
+/* FORMAT:  . */
 .cardFmtPayDues-8482 {
   background-color: #112866;
   border-bottom: 5px solid #0D1D4A;
@@ -141,6 +133,7 @@
       #1e69de 100%);
 }
 
+/* FORMAT:  . */
 .cardFmtPOPNews-8482 {
   background-color: #112866;
   border-bottom: 5px solid #0D1D4A;
@@ -151,6 +144,7 @@
       #1e69de 100%);
 }
 
+/* FORMAT:  . */
 .cardFmtSignUpLife-8482 {
   background: radial-gradient(ellipse at center,
       #b4e391 0%,
@@ -159,6 +153,7 @@
       #62e200 100%);
 }
 
+/* FORMAT:  . */
 .cardFmtTamalesDonate-8482 {
   display: flex;
   padding: 0;
@@ -170,12 +165,14 @@
   max-width: 350px;
 }
 
+/* FORMAT:  . */
 .cardFmtTamaleSales-8482 {
   background-color: #112866;
   border-bottom: 5px solid #BD3E31;
   text-shadow: 0px -2px #BD3E31;
 }
 
+/* FORMAT:  Links going to other KNIGHT websites. */
 .cardFmtTexasKnights-8482,
 .cardFmtTexasKnightsNews-8482,
 .cardFmtKnightlineMagazine-8482 {
@@ -185,19 +182,14 @@
 }
 
 /* *******************************************
-   content text formatting                   */
+   content text formatting */
+
+/* LIGHT Color text with shadow
 .textLight-8482 {
   margin-right: 0.5em;
   font-size: 1.3em;
   color: #28282B;
   text-shadow: 1px 3px 4px rgb(52, 56, 59);
-}
-
-/* Should ALWAYS override any other class properties specified in
-   the above classes in your HTML */
-.inActive-8482 {
-  display: none;
-  visibility: hidden;
 }
 
 .linkTextWhite-8482:visited,
@@ -244,6 +236,15 @@
   transform: translate(0px, 5px);
   -webkit-transform: translate(0px, 5px);
   border-bottom: 1px solid;
+}
+
+
+/* *******************************************
+   DISABLE:  Makes a button hidden for future re-use.
+   This should ALWAYS override any other class properties */
+.inActive-8482 {
+  display: none;
+  visibility: hidden;
 }
 
 /* ***** END ***** */
