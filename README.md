@@ -1,7 +1,7 @@
 # dwimberly.github.io Site
 Testing...
 ## Style
-  announce.cs
+  __announce.css__
 ## html
   Fragment html for placing in host site. 
-  _fragment.html_
+  __fragment.html__
