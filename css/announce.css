@@ -29,7 +29,7 @@
   font-size: 1.5rem;
   font-family: "Z003", serif;
   border-image: url("https://drive.google.com/uc?export=view&id=12GKRPSD8L1ZcjCKKrGaR5ivCsI5IwfVN") 27 round stretch;
-  border-width: 25px;
+  border-width: 15px;
   border-style: solid;
   background-image: url("https://drive.google.com/uc?export=view&id=120Z6kxtuR53wBvJgRBpHPclwNqtEnB9c");
   background-repeat: repeat;
@@ -42,12 +42,14 @@
     radial-gradient(ellipse at bottom left, #F43C38, transparent),
     radial-gradient(ellipse at bottom, #112866, transparent);
   line-height: 2.5rem;
+  border-bottom: 5px solid #990033;
+  text-shadow: 0px -2px #990033;
 }
 
 /* **********************************
    PRIMARY base format for ALL cards. 
    Use in combination with a specific format below. Put this one FIRST */
-.cardFmt-8482 {
+.cardFmtPRIMARY-8482 {
   position: relative;
   padding: 10px 40px;
   margin: 0px 10px 10px 0px;
