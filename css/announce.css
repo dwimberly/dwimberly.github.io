@@ -42,7 +42,7 @@
     background: radial-gradient(ellipse at top right, #f43c38, transparent),
         radial-gradient(ellipse at bottom left, #f43c38, transparent),
         radial-gradient(ellipse at bottom, #8b1218, transparent);
-    line-height: 2.5rem;
+    line-height: 1.75rem;
     border-bottom: 5px solid #8b1218;
     text-shadow: 0px -2px black;
 }
