@@ -18,49 +18,49 @@
 /* *************************************
    MAIN announcement Container */
 .containerAnnounce-8482 {
-  width: 95%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem 0.5rem;
-  margin: 0.5rem auto;
-  padding: 0.5rem 0.25rem;
-  font-size: 1.5rem;
-  font-family: "Z003", serif;
-  border-image: url("https://drive.google.com/uc?export=view&id=12GKRPSD8L1ZcjCKKrGaR5ivCsI5IwfVN") 27 round stretch;
-  border-width: 15px;
-  border-style: solid;
-  background-image: url("https://drive.google.com/uc?export=view&id=120Z6kxtuR53wBvJgRBpHPclwNqtEnB9c");
-  background-repeat: repeat;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem 0.5rem;
+    margin: 0.5rem auto;
+    padding: 0.5rem 0.25rem;
+    font-size: 1.5rem;
+    font-family: "Z003", serif;
+    border-image: url("https://drive.google.com/uc?export=view&id=12GKRPSD8L1ZcjCKKrGaR5ivCsI5IwfVN")
+        27 round stretch;
+    border-width: 15px;
+    border-style: solid;
+    background-image: url("https://drive.google.com/uc?export=view&id=120Z6kxtuR53wBvJgRBpHPclwNqtEnB9c");
+    background-repeat: repeat;
 }
 
 /*
    SUB-Container for Tamale donations */
 .containerCardTamalesDonate-8482 {
-  background: radial-gradient(ellipse at top right, #F43C38, transparent),
-    radial-gradient(ellipse at bottom left, #F43C38, transparent),
-    radial-gradient(ellipse at bottom, #112866, transparent);
-  line-height: 2.5rem;
-  border-bottom: 5px solid #136207;
-  text-shadow: 0px -2px #136207;
+    background: radial-gradient(ellipse at top right, #f43c38, transparent),
+        radial-gradient(ellipse at bottom left, #f43c38, transparent),
+        radial-gradient(ellipse at bottom, #112866, transparent);
+    line-height: 2.5rem;
+    border-bottom: 5px solid #136207;
+    text-shadow: 0px -2px #136207;
 }
 
 /* **********************************
    PRIMARY base format for ALL cards. 
    Use in combination with a specific format below. Put this one FIRST */
 .cardFmtPRIMARY-8482 {
-  position: relative;
-  padding: 10px 40px;
-  margin: 0px 10px 10px 0px;
-  float: left;
-  border-radius: 10px;
-  font-family: 'Z003', cursive;
-  font-size: 25px;
-  text-align: center;
-  color: #FFF;
-  text-decoration: none;
-
+    position: relative;
+    padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+    border-radius: 10px;
+    font-family: "Z003", cursive;
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 /* **********************************
@@ -68,125 +68,128 @@
 
 /* FORMAT:  Highlight in RED for selling stuff */
 .cardFmtREDPurchase-8482 {
-  background-color: #F33C38;
-  border-bottom: 5px solid #990033;
-  text-shadow: 0px -2px #990033;
-  background: radial-gradient(ellipse at top right,
-      #F33C38 0%,
-      #F33C38 40%,
-      #990033 100%);
+    background-color: #f33c38;
+    border-bottom: 5px solid #990033;
+    text-shadow: 0px -2px #990033;
+    background: radial-gradient(
+        ellipse at top right,
+        #f33c38 0%,
+        #f33c38 40%,
+        #990033 100%
+    );
 }
 
 /* FORMAT:  GENERIC button card formatting for any new buttons */
 .cardFmtGeneric-8482 {
-  background-color: #39842E;
-  border-bottom: 5px solid #136207;
-  text-shadow: 0px -2px #136207;
-  background: radial-gradient(ellipse at bottom left,
-      #39842E 0%,
-      #39842E 40%,
-      #1e69de 100%);
+    background-color: #39842e;
+    border-bottom: 5px solid #136207;
+    text-shadow: 0px -2px #136207;
+    background: radial-gradient(
+        ellipse at bottom left,
+        #39842e 0%,
+        #39842e 40%,
+        #1e69de 100%
+    );
 }
 
 /* FORMAT:  KofC.org Form 100 button */
 .cardFmtForm100-8482 {
-  background-color: #112866;
-  border-bottom: 5px solid #0D1D4A;
-  text-shadow: 0px -2px #0D1D4A;
-  background: radial-gradient(ellipse at bottom left,
-      #112866 0%,
-      #112866 40%,
-      #1e69de 100%);
+    background-color: #112866;
+    border-bottom: 5px solid #0d1d4a;
+    text-shadow: 0px -2px #0d1d4a;
+    background: radial-gradient(
+        ellipse at bottom left,
+        #112866 0%,
+        #112866 40%,
+        #1e69de 100%
+    );
 }
 
 /* FORMAT:  First Friday Meals. */
 .cardFmtFirstFriday-8482 {
-  background-color: #112866;
-  border-bottom: 5px solid #BD3E31;
-  text-shadow: 0px -2px #BD3E31;
+    background-color: #112866;
+    border-bottom: 5px solid #bd3e31;
+    text-shadow: 0px -2px #bd3e31;
 }
 
 /* FORMAT:  Lenten Fish Fry. */
 .cardFmtFishFry-8482 {
-  background-color: #112866;
-  border-bottom: 5px solid #BD3E31;
-  text-shadow: 0px -2px #BD3E31;
+    background-color: #112866;
+    border-bottom: 5px solid #bd3e31;
+    text-shadow: 0px -2px #bd3e31;
 }
 
 /* FORMAT:  Food Handler. */
 .cardFmtFoodHandler-8482 {
-  background-color: #41599B;
-  border-bottom: 5px solid #0D1D4A;
-  text-shadow: 0px -2px #0D1D4A;
-  background: radial-gradient(ellipse at center,
-      #41599B 0%,
-      #4F6298 40%,
-      #1e69de 100%);
+    background-color: #41599b;
+    border-bottom: 5px solid #0d1d4a;
+    text-shadow: 0px -2px #0d1d4a;
+    background: radial-gradient(
+        ellipse at center,
+        #41599b 0%,
+        #4f6298 40%,
+        #1e69de 100%
+    );
 }
 
-/* FORMAT:  . */
+/* FORMAT:  Pay Dues */
 .cardFmtPayDues-8482 {
-  background-color: #112866;
-  border-bottom: 5px solid #0D1D4A;
-  text-shadow: 0px -2px #0D1D4A;
-  background: radial-gradient(ellipse at bottom left,
-      #112866 0%,
-      #112866 40%,
-      #1e69de 100%);
+    background-color: #112866;
+    border-bottom: 5px solid #0d1d4a;
+    text-shadow: 0px -2px #0d1d4a;
+    background: radial-gradient(
+        ellipse at bottom left,
+        #112866 0%,
+        #112866 40%,
+        #1e69de 100%
+    );
 }
 
-/* FORMAT:  . */
+/* FORMAT:  POP News website */
 .cardFmtPOPNews-8482 {
-  background-color: #112866;
-  border-bottom: 5px solid #0D1D4A;
-  text-shadow: 0px -2px #0D1D4A;
-  background: radial-gradient(ellipse at bottom left,
-      #112866 0%,
-      #112866 40%,
-      #1e69de 100%);
+    background-color: #112866;
+    border-bottom: 5px solid #0d1d4a;
+    text-shadow: 0px -2px #0d1d4a;
+    background: radial-gradient(
+        ellipse at bottom left,
+        #112866 0%,
+        #112866 40%,
+        #1e69de 100%
+    );
 }
 
-/* FORMAT:  . */
-.cardFmtSignUpLife-8482 {
-  background: radial-gradient(ellipse at center,
-      #b4e391 0%,
-      #61c419 50%,
-      #abe281 72%,
-      #62e200 100%);
-}
-
-/* FORMAT:  . */
+/* FORMAT:  Tamales Donation */
 .cardFmtTamalesDonate-8482 {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  font-size: 20px;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  max-width: 350px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 350px;
 }
 
-/* FORMAT:  . */
+/* FORMAT:  Tamales Sales */
 .cardFmtTamaleSales-8482 {
-  background-color: #112866;
-  border-bottom: 5px solid #BD3E31;
-  text-shadow: 0px -2px #BD3E31;
+    background-color: #112866;
+    border-bottom: 5px solid #bd3e31;
+    text-shadow: 0px -2px #bd3e31;
 }
 
-/* FORMAT:  Links going to other KNIGHT websites. */
+/* FORMAT:  Same for other KNIGHT websites. */
 .cardFmtTexasKnights-8482,
 .cardFmtTexasKnightsNews-8482,
 .cardFmtKnightlineMagazine-8482 {
-  background-color: #1E42A6;
-  border-bottom: 5px solid #112866;
-  text-shadow: 0px -2px #112866;
+    background-color: #1e42a6;
+    border-bottom: 5px solid #112866;
+    text-shadow: 0px -2px #112866;
 }
 
 /* *******************************************
    content text formatting */
 
-/* LIGHT Color text with shadow
+/* LIGHT Color text with shadow */
 .textLight-8482 {
   margin-right: 0.5em;
   font-size: 1.3em;
@@ -216,37 +219,25 @@
   color: #CCCCCC;
 }
 
-.linkTextMardiGras-8482:visited,
-.linkTextMardiGras-8482 {
-  color: #13e96d !important;
-  text-shadow: 2px 2px 3px black;
-}
-
-.linkTextMardiGras-8482:hover,
-.linkTextMardiGras-8482:focus {
-  color: #e9de4a !important;
-  text-shadow: 2px 2px 3px black;
-}
 
 /* Animations pertaining to buttons within container */
 .linkAnimate-8482 {
-  transition: all 0.1s;
-  -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
 }
 
 .linkAction-Button-8482:active {
-  transform: translate(0px, 5px);
-  -webkit-transform: translate(0px, 5px);
-  border-bottom: 1px solid;
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    border-bottom: 1px solid;
 }
-
 
 /* *******************************************
    DISABLE:  Makes a button hidden for future re-use.
    This should ALWAYS override any other class properties */
 .inActive-8482 {
-  display: none;
-  visibility: hidden;
+    display: none;
+    visibility: hidden;
 }
 
 /* ***** END ***** */
